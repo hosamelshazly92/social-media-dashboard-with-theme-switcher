@@ -7,12 +7,12 @@ $Bright-Red: hsl(356, 69%, 56%);
 
 $Facebook: hsl(208, 92%, 53%);
 $Twitter: hsl(203, 89%, 53%);
-$Instagram: linear gradient hsl(37, 97%, 70%) to hsl(329, 70%, 58%);
+$Instagram: linear-gradient(hsl(37, 97%, 70%), hsl(329, 70%, 58%));
 $YouTube: hsl(348, 97%, 39%);
 
 //Dark Theme
 
-$Toggle: linear-gradient(90deg, hsl(210, 78%, 56%), hsl(146, 68%, 55%));
+$Toggle-Gradient: linear-gradient(90deg, hsl(210, 78%, 56%), hsl(146, 68%, 55%));
 
 //Light Theme
 
@@ -55,25 +55,30 @@ body {
     font-size: $Font-size;
 
     header {
-        background-color: $Light-Grayish-Blue-Card-BG;
+        background-color: $Very-Pale-Blue-Top-BG-Pattern;
         padding: 40px 160px;
 
         div:nth-of-type(1) {
-            width: 85%;
+            width: 50%;
             float: left;
             color: $Very-Dark-Blue-Text;
+
+            p {
+                padding-top: 10px;
+            }
         }
 
         div:nth-of-type(2) {
-            width: 15%;
+            width: 50%;
             float: right;
             color: $Dark-Grayish-Blue-Text;
-            //border: 1px solid blue;
 
             p {
                 font-weight: 700;
                 float: left;
                 line-height: 25px;
+                width: 80%;
+                text-align: right;
             }
 
             div {
@@ -98,7 +103,55 @@ body {
 
         div:nth-of-type(3) {
             clear: both;
-            height: 160px;
+            height: 140px;
+        }
+    }
+
+    main {
+        padding: 0 145px;
+
+        section {
+            position: relative;
+            top: -100px;
+            overflow: hidden;
+
+            div {
+                width: (100%/4);
+                height: 210px;
+                //border: 1px solid blue;
+                float: left;
+                padding: 0 15px;
+
+                .label {
+                    width: 100%;
+                    height: 100%;
+                    padding: 0;
+                    background-color: $Light-Grayish-Blue-Card-BG;
+                    border-radius: 4px;
+                    cursor: pointer;
+                    
+                    &:hover {
+                        background-color: $Toggle;
+                    }
+                }
+                
+                .facebook {
+                    border-top: 3px solid $Facebook;
+                }
+                
+                .twitter {
+                    border-top: 3px solid $Twitter;
+                }
+                
+                .instagram {
+                    border-top: 3px solid hsl(329, 70%, 58%);
+                    border-top-color: linear-gradient(90deg, hsl(37, 97%, 70%), hsl(329, 70%, 58%));
+                }
+                
+                .youtube {
+                    border-top: 3px solid $YouTube;
+                }
+            }
         }
     }
 }
