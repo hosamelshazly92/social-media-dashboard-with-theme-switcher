@@ -77,6 +77,53 @@ body main section div .label {
 body main section div .label:hover {
   background-color: #aeb3cb;
 }
+body main section div .label div:nth-of-type(1) {
+  width: 100%;
+  height: 25%;
+  padding: 0;
+  text-align: center;
+}
+body main section div .label div:nth-of-type(1) img {
+  height: 20px;
+  margin-top: 20px;
+}
+body main section div .label div:nth-of-type(1) p:nth-of-type(1) {
+  margin-top: 5px;
+  color: #63687e;
+  font-weight: 700;
+  line-height: 10px;
+}
+body main section div .label div:nth-of-type(2) {
+  width: 100%;
+  height: 50%;
+  text-align: center;
+  padding: 0;
+}
+body main section div .label div:nth-of-type(2) p:nth-of-type(1) {
+  font-size: 4rem;
+  color: #1e202a;
+  font-weight: 700;
+  padding-top: 10px;
+}
+body main section div .label div:nth-of-type(2) p:nth-of-type(2) {
+  color: #63687e;
+  letter-spacing: 5px;
+}
+body main section div .label div:nth-of-type(3) {
+  width: 100%;
+  height: 25%;
+  text-align: center;
+  padding: 10px 0;
+}
+body main section div .label div:nth-of-type(3) img {
+  display: inline;
+}
+body main section div .label div:nth-of-type(3) p {
+  display: inline;
+  margin-left: 10px;
+  color: #1db489;
+  font-weight: 700;
+}
 body main section div .facebook {
   border-top: 3px solid #198ff5;
 }
