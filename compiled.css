@@ -107,7 +107,7 @@ body main section div .label div:nth-of-type(2) p:nth-of-type(1) {
 }
 body main section div .label div:nth-of-type(2) p:nth-of-type(2) {
   color: #63687e;
-  letter-spacing: 5px;
+  letter-spacing: 6px;
 }
 body main section div .label div:nth-of-type(3) {
   width: 100%;
@@ -120,7 +120,7 @@ body main section div .label div:nth-of-type(3) img {
 }
 body main section div .label div:nth-of-type(3) p {
   display: inline;
-  margin-left: 10px;
+  margin-left: 5px;
   color: #1db489;
   font-weight: 700;
 }
@@ -136,6 +136,9 @@ body main section div .instagram {
 }
 body main section div .youtube {
   border-top: 3px solid #c4032a;
+}
+body main section div .youtube div:nth-of-type(3) p {
+  color: #dc414c;
 }
 
 /*# sourceMappingURL=compiled.css.map */

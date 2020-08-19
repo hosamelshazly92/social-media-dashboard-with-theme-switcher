@@ -168,7 +168,7 @@ body {
 
                         p:nth-of-type(2) {
                             color: $Dark-Grayish-Blue-Text;
-                            letter-spacing: 5px;
+                            letter-spacing: 6px;
                         }
                     }
 
@@ -185,7 +185,7 @@ body {
 
                         p {
                             display: inline;
-                            margin-left: 10px;
+                            margin-left: 5px;
                             color: $Lime-Green;
                             font-weight: 700;
                         }
@@ -207,6 +207,12 @@ body {
 
                 .youtube {
                     border-top: 3px solid $YouTube;
+                    
+                    div:nth-of-type(3) {
+                        p {
+                            color: $Bright-Red;
+                        }
+                    }
                 }
             }
         }
