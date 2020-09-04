@@ -140,5 +140,142 @@ body main section div .youtube {
 body main section div .youtube div:nth-of-type(3) p {
   color: #dc414c;
 }
+body .body .head {
+  padding: 0 145px;
+}
+body .body .head h1 {
+  padding: 0 15px;
+  padding-bottom: 30px;
+  color: #63687e;
+}
+body .body .top {
+  overflow: hidden;
+  clear: both;
+  padding: 0 145px;
+}
+body .body .top div {
+  width: 25%;
+  float: left;
+  padding: 0 15px;
+}
+body .body .top div .label {
+  width: 100%;
+  height: 150px;
+  padding: 0 20px;
+  background-color: #f0f2fa;
+  border-radius: 4px;
+  cursor: pointer;
+}
+body .body .top div .label:hover {
+  background-color: #aeb3cb;
+}
+body .body .top div .label div:nth-of-type(1) {
+  width: 100%;
+  height: 25%;
+  padding: 0;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+body .body .top div .label div:nth-of-type(1) p:nth-of-type(1) {
+  color: #63687e;
+  font-weight: 700;
+  line-height: 20px;
+  float: left;
+}
+body .body .top div .label div:nth-of-type(1) img {
+  height: 20px;
+  float: right;
+}
+body .body .top div .label .number {
+  clear: both;
+  color: #1e202a;
+  font-size: 2rem;
+  font-weight: 700;
+  float: left;
+}
+body .body .top div .label div:nth-of-type(2) {
+  text-align: right;
+  padding: 10px 0;
+  float: right;
+}
+body .body .top div .label div:nth-of-type(2) img {
+  display: inline;
+}
+body .body .top div .label div:nth-of-type(2) p {
+  display: inline;
+  margin-left: 5px;
+  color: #1db489;
+  font-weight: 700;
+}
+body .body .top div #red {
+  color: #dc414c;
+}
+body .body .bottom {
+  overflow: hidden;
+  clear: both;
+  padding: 0 145px;
+  padding-top: 30px;
+  padding-bottom: 90px;
+}
+body .body .bottom div {
+  width: 25%;
+  float: left;
+  padding: 0 15px;
+}
+body .body .bottom div .label {
+  width: 100%;
+  height: 150px;
+  padding: 0 20px;
+  background-color: #f0f2fa;
+  border-radius: 4px;
+  cursor: pointer;
+}
+body .body .bottom div .label:hover {
+  background-color: #aeb3cb;
+}
+body .body .bottom div .label div:nth-of-type(1) {
+  width: 100%;
+  height: 25%;
+  padding: 0;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+body .body .bottom div .label div:nth-of-type(1) p:nth-of-type(1) {
+  color: #63687e;
+  font-weight: 700;
+  line-height: 20px;
+  float: left;
+}
+body .body .bottom div .label div:nth-of-type(1) img {
+  height: 20px;
+  float: right;
+}
+body .body .bottom div .label .number {
+  clear: both;
+  color: #1e202a;
+  font-size: 2rem;
+  font-weight: 700;
+  float: left;
+}
+body .body .bottom div .label div:nth-of-type(2) {
+  text-align: right;
+  padding: 10px 0;
+  float: right;
+}
+body .body .bottom div .label div:nth-of-type(2) img {
+  display: inline;
+}
+body .body .bottom div .label div:nth-of-type(2) p {
+  display: inline;
+  margin-left: 5px;
+  color: #1db489;
+  font-weight: 700;
+}
+body .body .bottom div #red {
+  color: #dc414c;
+}
+body .body .bottom div #green {
+  color: #1db489;
+}
 
 /*# sourceMappingURL=compiled.css.map */
